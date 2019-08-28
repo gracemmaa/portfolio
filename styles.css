@@ -4,9 +4,16 @@
     background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
 }
 
+@font-face {
+    font-family: 'Avenir', sans-serif;
+    src: url("files/Avenir.ttc");
+}
+
 .main {
     margin-left: auto;
     margin-right: auto;
+    padding-right: 16px;
+    padding-left: 16px;
     max-width: 976px;
 }
 
@@ -20,6 +27,9 @@ nav {
     max-width: 976px;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+
 }
 
 .container {
@@ -36,9 +46,9 @@ li {
     padding-left: 56px;
     font-family: 'Avenir', sans-serif;
     font-size: 16px;
-    font-weight: 400;
-    color: black;
-    opacity: 0.5;
+    font-weight: Roman;
+    color: rgba(0,0,0,0.5);
+    white-space: nowrap;
 }
 
 .logo {
@@ -50,7 +60,7 @@ li {
     font-weight: 600;
     padding-top: 3em;
     color: #8D81D9;
-    min-width: 120px;
+    white-space: nowrap;
 }
 
 .hero {
@@ -62,13 +72,13 @@ a {
     text-decoration: none;
 
     font-family: 'Avenir', sans-serif;
-    opacity: 1;
+    opacity: 100%;
 }
 
-#link {
+a:hover {
+    font-weight: Heavy;
     color: #8D81D9;
-    opacity: 1;
-    font-weight: 600;
+    opacity: 100%;
 }
 
 #work {
@@ -85,15 +95,17 @@ h1 {
 
 }
 
-p {
+.desc {
+    max-width: 645px;
+    min-width: 345px;
     font-family: 'Avenir', sans-serif;
     font-weight: 300;
     font-size: 16px;
-    opacity: 0.6;
+    color: rgba(0,0,0,0.7);
     line-height: 2em;
 }
 
-#desc {
-    max-width: 645px;
-    min-width: 345px;
+.link {
+    color: #8D81D9;
+    font-weight: 600;
 }
