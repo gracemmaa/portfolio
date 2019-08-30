@@ -4,6 +4,11 @@
     background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
 }
 
+html {
+    margin: auto;
+}
+
+
 @font-face {
     font-family: 'Avenir', sans-serif;
     src: url("files/Avenir.ttc");
@@ -13,19 +18,16 @@
     display: block;
     align-content: center;
     margin: auto;
-    padding-right: 16px;
-    padding-left: 16px;
     max-width: 976px;
 }
 
 body {
-    margin: 0;
+   margin: auto;
 }
 
 nav {
     display: flex;
     padding-bottom: 5px;
-    max-width: 976px;
     margin-right: auto;
     margin-left: auto;
 
@@ -40,9 +42,9 @@ nav {
     margin-bottom: 0px;
 }
 
-div {
+/* div {
     display: block;
-}
+}    */
 
 li {
     list-style-type: none;
@@ -56,8 +58,7 @@ li {
 
 .logo {
     display: inline-flex;
-    flex-grow: 3;
-    flex-basis: 50em auto;
+    flex-grow: 2;
     font-family: 'Avenir', sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -115,7 +116,6 @@ h3 {
 
 .desc {
     max-width: 645px;
-    min-width: 345px;
     font-family: 'Avenir', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -178,7 +178,7 @@ footer {
 
 @media all and (max-width: 600px) {
     .main {
-        max-width: 90%;
+        max-width: 80%;
     }
 
     li {
@@ -194,7 +194,7 @@ footer {
 @media all and (max-width: 425px) {
     .main {
         max-width: 90%;
-    }
+    }              
 
     li {
         padding-left: 24px;
