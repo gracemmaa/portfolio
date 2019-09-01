@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    background-color: #ffffff;
-    background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/brilliant.png"); */
+    background-color: transparent;
 }
 
 html {
@@ -14,6 +14,9 @@ html {
     src: url("files/Avenir.ttc");
 }
 
+/* AM I DOING THIS FONT SHIT RIGHT THO AHHH */
+
+
 .main {
     display: block;
     align-content: center;
@@ -23,6 +26,7 @@ html {
 
 body {
    margin: auto;
+   background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
 }
 
 nav {
@@ -97,7 +101,7 @@ h1 {
     font-size: 34px;
     font-weight: 600;
     opacity: 0.8;
-
+    max-width: 60%;
 }
 
 h2 {
@@ -114,6 +118,13 @@ h3 {
     color: rgba(0,0,0,0.7);
 }
 
+h4 {
+    font-family: 'Avenir', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(0,0,0,0.5);
+}
+
 .desc {
     max-width: 645px;
     font-family: 'Avenir', sans-serif;
@@ -123,28 +134,51 @@ h3 {
     line-height: 2em;
 }
 
-.link {
+.link, .link-d, .link-cover {
     color: #8D81D9;
     font-weight: 600;
 }
+
+.link-d:hover {
+    color: #86BC24;
+}
+
+.link-cover:hover {
+    color: #E90943;
+}
+
 
 .project1 {
     display: flex;
     align-items: center;
     border: 1px solid rgba(0,0,0, 0.2);
     border-radius: 5px;
+    margin-bottom: 3em;
+    overflow: auto;
+    background-color: white;
 
+    /* idk what over flow does */
+}
+
+.project1:hover {
+    box-shadow: 0px 5px 10px 0 rgba(0,0,0,0.2);
 }
 
 .image {
     display: flex;
     border-radius: 5px;
     padding: 0;
+    background-color: #222222;
+    flex-grow: 1;
 }
 
 #prj-img {
     max-width: 100%;
-    height: 100%
+    object-fit: cover;
+    background-color: #222222;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .info {
