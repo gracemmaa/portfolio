@@ -98,7 +98,7 @@ a:hover {
 
 h1 {
     font-family: 'Avenir', sans-serif;
-    font-size: 34px;
+    font-size: 36px;
     font-weight: 600;
     opacity: 0.8;
 
@@ -187,11 +187,46 @@ h4 {
     flex-direction: column;
 }
 
+.hackathon-list {
+    margin-top: 2.5em;
+}
 
+.hack-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/* .hack-col {
+    display: flex;
+    flex-direction: column;
+} */
+
+.hack-item {
+    flex: 50%;
+    height: auto;
+}
+
+
+#hack-img {
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 5px;
+}
+
+#hack-img:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.hack-container:hover {
+    fill: #8D81D9;
+}
 
 footer {
     height: 200px;
 }
+
 
 
 
