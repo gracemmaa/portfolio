@@ -235,33 +235,39 @@ h4 {
     padding-top: 2em;
 }
 
+
 .hack-item1 {
     flex-direction: column;
     flex: 1;
     margin-right: 10px;
-    height: auto;
+    padding-bottom: 1em;
 }
 
 .hack-item2 {
     flex-direction: column;
     flex: 1;
     margin-left: 10px;
-    height: auto;
+    padding-bottom: 1em;
+
 }
 
 
 #hack-img {
     width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
-
-#hack-img:hover {
+.hack-item1:hover {
     opacity: 0.2;
     filter: alpha(opacity=20);
+
 }
 
-.hack-container:hover {
-    fill: #8D81D9;
+.hack-item2:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+
 }
 
 footer {
@@ -306,6 +312,14 @@ footer {
 
     .hack-row {
         flex-direction: column;
+    }
+
+    .hack-item1 {
+        margin-right: 0;
+    }
+
+    .hack-item2 {
+        margin-left: 0;
     }
     
 }
