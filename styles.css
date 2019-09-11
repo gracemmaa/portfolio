@@ -345,6 +345,11 @@ footer {
         max-width: 100%;
     }
 
+    .hero {
+        padding-bottom: 5em;
+        padding-top: 4em;
+    }
+
 
 
 }
