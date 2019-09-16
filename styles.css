@@ -78,6 +78,11 @@ li {
     padding-bottom: 8em;
 }
 
+.hero2 {
+    padding-top: 6em;
+    padding-bottom: 1em;
+}
+
 .banner {
     padding-top: 5em;
     padding-bottom: 3em;
@@ -147,7 +152,6 @@ h4 {
     font-size: 14px;
     font-weight: 400;
     color: rgba(0,0,0,0.5);
-    padding-bottom: 0.8em;
 }
 
 .desc {
@@ -193,6 +197,10 @@ h4 {
 }
 
 .project1:hover {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    -webkit-transition: transform 0.2s ease 0s;
+    transition: transform 0.2s ease 0s;
     box-shadow: 0px 5px 10px 0 rgba(0,0,0,0.2);
 }
 
@@ -233,8 +241,34 @@ h4 {
     font-size: 14px;
 } */
 
+.story {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #8D81D9;
+    letter-spacing: 0.1em;
+}
+
 .hackathon-list {
-    margin-top: 2.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hack {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: 20%;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.hack:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    opacity: 100%;
 }
 
 .projects {
@@ -284,6 +318,23 @@ h4 {
     opacity: 0.2;
     filter: alpha(opacity=20);
 
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.role {
+    flex-direction: column;
+    flex: 1;
+}
+
+.duration {
+    flex-direction: column;
+    flex: 1;
 }
 
 footer {
