@@ -84,7 +84,7 @@ li {
 }
 
 .banner {
-    padding-top: 5em;
+    padding-top: 3em;
     padding-bottom: 3em;
     text-align: center;
 }
@@ -167,7 +167,7 @@ h4 {
     font-family: 'Muli', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    line-height: 1.4em;
+    line-height: 1.5em;
     color: rgba(0,0,0,0.7);
 }
 
@@ -326,6 +326,7 @@ h4 {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 1em;
 }
 
 .role {
@@ -334,6 +335,11 @@ h4 {
 }
 
 .duration {
+    flex-direction: column;
+    flex: 1;
+}
+
+.hackathon {
     flex-direction: column;
     flex: 1;
 }
