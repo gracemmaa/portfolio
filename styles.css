@@ -394,16 +394,19 @@ h4 {
 .role {
     flex-direction: column;
     flex: 1;
+    margin-right: 12px;
 }
 
 .duration {
     flex-direction: column;
     flex: 1;
+    margin-right: 12px;
 }
 
 .hackathon {
     flex-direction: column;
     flex: 1;
+    margin-right: 12px;
 }
 
 table {
@@ -555,5 +558,9 @@ footer {
 
     .header {
         max-width: 100%;
+    }
+
+    .summary {
+        flex-direction: column;
     }
 }
