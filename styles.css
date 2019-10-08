@@ -596,11 +596,15 @@ td {
     flex: 1;
 }
 
+.center {
+    text-align: center;
+}
+
 
 
 footer {
     margin-top: 5em;
-    height: 56px;
+    height: 112px;
     width: 100%;
     background-color: #F3F1F6;
     color: gray;
