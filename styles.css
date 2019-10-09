@@ -209,7 +209,7 @@ h4 {
     transform: translateY(8px);
     -webkit-transition: transform 0.2s ease 0s;
     transition: transform 0.2s ease 0s;
-    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .project1:hover {
@@ -217,7 +217,7 @@ h4 {
     transform: translateY(-8px);
     -webkit-transition: transform 0.2s ease 0s;
     transition: transform 0.2s ease 0s;
-    box-shadow: 0px 3px 8px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.15);
 }
 
 .image {
@@ -257,7 +257,7 @@ h4 {
     transform: translateY(8px);
     -webkit-transition: transform 0.2s ease 0s;
     transition: transform 0.2s ease 0s;
-    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
 }
 
 .feature-prj:hover {
@@ -358,7 +358,7 @@ button:hover{
     transform: translateY(8px);
     -webkit-transition: transform 0.2s ease 0s;
     transition: transform 0.2s ease 0s;
-    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
 }
 
 .hack-item2 {
@@ -374,7 +374,7 @@ button:hover{
     transform: translateY(8px);
     -webkit-transition: transform 0.2s ease 0s;
     transition: transform 0.2s ease 0s;
-    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
 }
 
 #hack-img {
