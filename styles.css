@@ -81,7 +81,7 @@ h4 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 1rem;
-    margin: 0;
+    margin: 0 0 .5rem 0;
     line-height: 165%;
     color: var(--text3);
     text-transform: uppercase;
@@ -397,7 +397,7 @@ a {
 .callout {
     padding: 2rem;
     background-color: var(--bg2);
-    margin: 1rem 0;
+    margin: .5rem 0 1rem 0;
     border-radius: .5rem;
 }
 
