@@ -451,6 +451,10 @@ a {
     margin-left: 4rem;
 }
 
+.about-body p {
+    line-height: 170%;
+}
+
 #resume {
     font-weight: 600;
     text-decoration: underline;
