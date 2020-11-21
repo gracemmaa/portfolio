@@ -1,155 +1,229 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
     <meta charset="utf-8">
 
-    <title>Helios - Grace Ma</title>
+    <title>Grace Ma</title>
     <meta name="description" content="Grace's Portfolio">
     <meta name="author" content="SitePoint">
     <meta name="viewport" content="width=device-width; initial-scale=1.0;">
 
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700,800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,500,600,700,800&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/favicon.svg" />
+
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <script src="theme.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
-<body>
+<body class="theme-dark">
 
-<div class="main">
+    <div class="container">
 
-    <nav>
-        <div class="logo"><a href="index.html">grace ma</a></div>
-        <ul class="container">
-            <li id="home"><a href="index.html">work</a></li>
-            <li id="fun"><a href="https://www.instagram.com/graace.png/" target="_blank">fun</a></li>
-            <li id="about"><a href="about.html">about</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <div class="toggle-container">
+                <span class="iconify" data-icon="bx:bx-moon" data-inline="false"></span>
+                <input type="checkbox" id="switch" name="theme" onChange="changeTheme()" /><label for="switch">Toggle</label>
+                <span class="iconify" data-icon="bx:bx-brightness" data-inline="false"></span>
+            </div>
+            <ul class="navigation">
+                <li><a href="index.html" id="inactive">work</a></li>
+                <li><a href="https://www.instagram.com/graace.png/" target="_blank" id="inactive">fun</a></li>
+                <li><a href="about.html" id="inactive">about</a></li>
+            </ul>
+        </nav>
 
-    <div class="banner">
-        <img id="banner-img" src="images/helios/helios.svg">
-    </div>
+        <div class="project-header" data-aos="fade-up" data-aos-duration="1000">
+                <img src="Images/helios-banner.png" id="header-img">
+        </div>
 
-    <div class="content">
-        <h1>Helios - Side Project Platform</h1>
+        <div class="title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <h1>Helios</h1>
+            <div class="context">
+                <div class="context-item">
+                    <p>Role</p>
+                    <p>Product Design Lead, Product Designer</p>
+                </div>
+                <div class="context-item">
+                    <p>Team</p>
+                    <p>3 designers — Me, Yifei Ren, Emma Tsai</p>
+                </div>
+                <div class="context-item">
+                    <p>Duration</p>
+                    <p>January 2019 - August 2019 (8 months)</p>
+                </div>
+            </div>
+        </div>
 
-        <br>
+        <div class="prj-section">
+            <h2>Brief</h2>
+            <div class="callout">
+                <p id="desc">Helios is a platform that builds a community to turn passion into value, impact, and productivity.</p>
+            </div>
+            <p>Helios is a platform that connects entrepreneurial students and individuals together to build side projects
+                and startup businesses. Its aim is to aggregate talented and passionate people to create a network where
+                everyone shares the same drive to improve their skills and gain experience.</p>
+        </div>
 
-        <div class="summary">
-            <div class="role">
-                <h3>Role</h3>
-                <p class="article">Project Lead & User Experience Designer</p>
+        <div class="prj-section">
+            <h2>Problem</h2>
+            <div class="callout">
+                <p id="desc">A lack of system for finding side projects means that to do so is time-consuming
+                    and there is little return for invested time.</p>
+            </div>
+            <p>When students and individuals want to work on side projects together, there isn't a go-to
+                method of finding people to work with, or available side projects to join when they don't
+                have an idea themselves. They have to reach out to their network and friends which takes
+                time, and not everyone may commit the same amount of time to a project.</p>
+
+            <div class="callout-small">
+                <div class="callout-icon">
+                    <span class="iconify" data-icon="bi:chat-dots-fill" data-inline="false"></span>
+                </div>
+                <p>“There’s no uniform platform to show what opportunities there are.”
+                    - Nick, Masters Student</p>
             </div>
 
-            <div class="duration">
-                <h3>Duration</h3>
-                <p class="article">Jan 2018 to present</p>
+            <div class="callout-small">
+                <div class="callout-icon">
+                    <span class="iconify" data-icon="bi:chat-dots-fill" data-inline="false"></span>
+                </div>
+                <p>“I’ve gone to a lot of networking events to see if people are working on anything, but it never works”
+                    - Galen, Student and Startup Owner</p>
             </div>
 
         </div>
 
-        <br><br>
+        <div class="prj-section">
+            <h2>Goal</h2>
+            <div class="callout">
+                <p id="desc">Helios is a platform that builds a community to turn passion into value, impact, and productivity.</p>
+            </div>
+        </div>
 
-        <h2>Brief</h2>
-        <p class="article">
-            Helios is a platform that connects entrepreneurial students and individuals
-            together to build side projects and startup businesses. Its aim is to aggregate
-            talented and passionate people to create a network where everyone shares the
-            same drive to improve their skills and gain experience.
-        </p>
+        <div class="prj-section">
+            <h2>Target Users</h2>
+            <h3>Entrepreneurial Students</h3>
+        </div>
 
-        <br><br>
+        <img src="Images/helios/users.png" class="image">
 
-        <h2>Timelines - Working with time and dev constraints</h2>
-        <img src="images/helios/process.png" class="hack-img">
-        <p class="article">
-            We started the first iteration of the project building from our assumptions.
-            In order to keep our devs utilized and meet our deadlines, the design team
-            made initial designs which would be iterated on afterwards.
-        </p>
+        <div class="prj-section">
+            <h2>Research</h2>
+            <p>To better understand how our users currently navigate starting side projects
+                and the associated pain points, I conducted user interviews with the help of 2
+                designers with 4 participants, ranging from students driven to learn to startup owners
+                whose companies began as side projects.</p>
 
-        <br><br>
-        <br><br>
-        <br><br>
+            <h3>Insights & Takeaways</h3>
 
-        <h2>Our Assumptions</h2>
-        <br>
+            <div class="bullet">
+                <div class="dot">
+                    <p>●</p>
+                </div>
+                <p>Finding people to work on side projects with is time consuming, and often done in person
+                    (clubs, events, networking opportunities)</p>
+            </div>
 
-        <h3>Assumption 1</h3>
-        <p class="article">
-            People who would use our platform are already looking to start or join a side
-            project, mostly students.
-        </p>
+            <div class="bullet">
+                <div class="dot">
+                    <p>●</p>
+                </div>
+                <p>The right fit relied on a person's commitment to the project and appropriate skill set</p>
+            </div>
 
-        <br>
+            <div class="bullet">
+                <div class="dot">
+                    <p>●</p>
+                </div>
+                <p>Those who couldn't commit an appropriate amount of time led to drop-offs</p>
+            </div>
 
-        <h3>Assumption 2</h3>
-        <p class="article">
-            With our product, people and projects are aggregated on our platform.
-            The expected user behaviour is that they would look through the list of
-            available projects and roles.
-        </p>
-
-        <h3>Outcome</h3>
-        <p class="article">
-            We prioritized displaying projects as a result. Here were some initial explorations done by my
-            teammate, Emma.
-        </p>
-        <img src="images/helios/w1.png" class="hack-img">
-        <p class="article">
-            And we made more iterations to make the experience simpler.
-        </p>
-        <img src="images/helios/w2.png" class="hack-img">
-
-        <br>
-
-        <h3>Assumption 3</h3>
-        <p class="article">
-            Profiles are less prioritized in the information architecture than project
-            detail pages. Users are expected to click into projects and contact the
-            poster from that page. To get to the profile, users would have to click
-            their profile icons, a much smaller, non-obvious action button.
-        </p>
-        <h3>Outcome</h3>
-        <p class="article">
-            We designed the project detail page and profile page to reflect this assumption. We de-prioritized
-            any information about team and team members from the detail page, and featured projects
-            on the profile pages. The wireframes below were explorations from Emma and Yifei.
-        </p>
-        <img src="images/helios/w3.png" class="hack-img">
+            <div class="bullet">
+                <div class="dot">
+                    <p>●</p>
+                </div>
+                <p>Social impact and opportunity to learn is important to users when they want to find a project to join</p>
+            </div>
+        </div>
 
 
-        <br><br>
-        <br><br>
-        <br><br>
+        <div class="prj-section">
+            <h2>Designing the Product</h2>
 
-        <h2>Understanding the user - finally conducting research!</h2>
+            <h3>Product Requirements</h3>
+            <p>Taking into account the tasks that the users need to perform, we identified key features that we needed to build.
+            <br>
+            <br>
+            </p>
 
-        <p class="article">
-            We interviewed 4 individuals, who ranged from students looking for side projects, to
-            startup owners looking for more team members. We asked questions to better understand their
-            frustrations and goals when it comes to starting or looking for projects.
-        </p>
+            <div class="bullet">
+                <div class="dot">
+                    <p>1.</p>
+                </div>
+                <p>A way for users to browse and join open side projects</p>
+            </div>
 
-        <br><br>
+            <div class="bullet">
+                <div class="dot">
+                    <p>2.</p>
+                </div>
+                <p>A way for users to post their open side projects to recruit new teammates</p>
+            </div>
 
-        <h3></h3>
+            <div class="bullet">
+                <div class="dot">
+                    <p>3.</p>
+                </div>
+                <p>A way for users to post their open side projects to recruit new teammates</p>
+            </div>
 
+            <div class="bullet">
+                <div class="dot">
+                    <p>4.</p>
+                </div>
+                <p>A means of connecting these two parties.</p>
+            </div>
+        </div>
 
 
     </div>
 
 
-</div>
 
-<footer>
-    <br>
-    <p>designed and developed by me!</p>
-    <p style="font-weight: 500;">contact me @ gracemmaa@gmail.com</p>
-</footer>
+
+
+
+
+
+
+    <div class="container">
+
+        <footer>
+            <h2>Let's Get in Touch</h2>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/gracemmaa/" target="_blank">—LinkedIn</a>
+                <a href="https://twitter.com/gracemmaa_" target="_blank">—Twitter</a>
+                <a href="mailto:g8ma@uwaterloo.ca">—Email</a>
+            </div>
+            <div class="copyright">
+                <p>Made with lots of  🍵 by Grace Ma — Much love to Ahrar and Omar for dev help!</p>
+                <!--<p id="caption">Grace Ma 2020 ©</p>-->
+            </div>
+
+        </footer>
+
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 
 </body>
-</html>

@@ -1,80 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
     <meta charset="utf-8">
 
-    <title>About Me - Grace Ma</title>
+    <title>Grace Ma</title>
     <meta name="description" content="Grace's Portfolio">
     <meta name="author" content="SitePoint">
     <meta name="viewport" content="width=device-width; initial-scale=1.0;">
 
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700,800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,500,600,700,800&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/favicon.svg" />
+
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <script src="theme.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
-<body>
+<body class="theme-dark">
 
-<div class="main">
+    <div class="container">
 
-    <nav>
-        <div class="logo"><a href="index.html">grace ma</a></div>
-        <ul class="container">
-            <li id="home"><a href="index.html">work</a></li>
-            <li id="fun"><a href="https://www.instagram.com/graace.png/" target="_blank">fun</a></li>
-            <li id="active"><a href="about.html">about</a></li>
-        </ul>
-    </nav>
-
-    <div class="about">
-        <div class="about-row">
-            <div class="about-img">
-                <img class="abt-img" src="images/me.jpg">
+        <nav>
+            <div class="toggle-container">
+                <span class="iconify" data-icon="bx:bx-moon" data-inline="false"></span>
+                <input type="checkbox" id="switch" name="theme" onChange="changeTheme()" /><label for="switch">Toggle</label>
+                <span class="iconify" data-icon="bx:bx-brightness" data-inline="false"></span>
             </div>
-            <div class="about-info">
-                <h1 style="margin-bottom: 0.3em">Hey there! I'm Grace Ma.</h1>
-                <p class="article">
-                    I’m a UX designer based in Toronto and I’m currently studying
-                    Global Business and Digital Arts at the University of Waterloo.
-                </p>
-
-                <p class="article">
-                    Although I'm supposed to be finishing up my fourth year of school,
-                    I decided to take a gap year to explore more career options before I graduate!
-                    Outside of work, I'm still super involved on campus. Find me running around
-                    at UWaterloo on January 18 to 19th for StarterHacks 2020!
-                </p>
-
-                <p class="article">
-                    When I'm not working or designing, I'm likely to be eating, drinking bubble tea,
-                    and playing board games with friends.
-                </p>
-
-                <br>
-
-                <a href="files/Grace_Resume.pdf" target="_blank">
-                    <button>
-                        Resume
-                    </button>
-                </a>
-
-            </div>
-        </div>
+            <ul class="navigation">
+                <li><a href="index.html" id="inactive">work</a></li>
+                <li><a href="https://www.instagram.com/graace.png/" target="_blank" id="inactive">fun</a></li>
+                <li><a href="about.html" id="active">about</a></li>
+            </ul>
+        </nav>
 
     </div>
 
 
-
-</div>
-
-<footer>
-    <br>
-    <p>designed and developed by me!</p>
-    <p style="font-weight: 500;">contact me @ gracemmaa@gmail.com</p>
-</footer>
-
 </body>
-</html>
