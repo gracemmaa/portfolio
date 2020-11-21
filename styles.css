@@ -434,7 +434,7 @@ a {
 .about {
     display: flex;
     flex-direction: row;
-    margin-top: 10rem;
+    margin-top: 6rem;
     align-items: flex-start;
 }
 
