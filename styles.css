@@ -79,11 +79,12 @@ h3 {
 
 h4 {
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
     margin: 0;
     line-height: 165%;
     color: var(--text3);
+    text-transform: uppercase;
 }
 
 p {
@@ -158,6 +159,7 @@ p {
 .image {
     max-width: 100%;
     border-radius: .4rem;
+    margin: auto;
 }
 
 
@@ -422,7 +424,8 @@ a {
 }
 
 .dot {
-    margin-right: .5rem;
+    margin-right: 1rem;
+    margin-left: .5rem
 }
 
 
@@ -588,6 +591,15 @@ html.transition *:after {
 @media all and (max-width: 425px) {
     li {
         padding-left: 16px;
+    }
+
+    .callout-small {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .callout-small .iconify {
+        margin-bottom: 1rem;
     }
 
 }
