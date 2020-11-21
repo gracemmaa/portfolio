@@ -434,10 +434,31 @@ a {
 .about {
     display: flex;
     flex-direction: row;
-
+    margin-top: 10rem;
+    align-items: flex-start;
 }
 
+.me {
+    display: flex;
+    flex: 1.2;
+    margin-top: 2rem;
+}
 
+.about-body {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+#resume {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#resume:hover {
+    color: var(--text3);
+}
 
 
 
@@ -533,6 +554,16 @@ html.transition *:after {
     }
 }
 
+@media (max-width: 1000px) {
+    .me{
+        flex: 1;
+    }
+
+    .about-body {
+        flex: 1;
+        margin-left: 2rem;
+    }
+}
 
 @media (max-width: 850px) {
     .project {
@@ -559,6 +590,20 @@ html.transition *:after {
         max-width: 100%;
     }
 
+    .about {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .me {
+        margin-bottom: 2rem;
+    }
+
+    .about-body {
+        margin-left: 0;
+    }
+
+
 }
 
 
@@ -571,8 +616,8 @@ html.transition *:after {
         max-width: 100%;
     }
 
-    .li {
-        padding-left: 40px;
+    li {
+        padding-left: 32px;
     }
 
     .context {
