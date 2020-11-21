@@ -429,6 +429,16 @@ a {
 }
 
 
+/*About*/
+
+.about {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
 
 
 
