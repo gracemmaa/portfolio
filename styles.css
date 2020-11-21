@@ -77,6 +77,15 @@ h3 {
     margin: 2rem 0 .5em 0;
 }
 
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+    line-height: 165%;
+    color: var(--text3);
+}
+
 p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -386,7 +395,7 @@ a {
 .callout {
     padding: 2rem;
     background-color: var(--bg2);
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0;
     border-radius: .5rem;
 }
 
