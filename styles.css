@@ -260,6 +260,7 @@ a {
     border-radius: 100px;
     background-color: var(--bg1);
     margin-right: 8px;
+    white-space: nowrap;
 }
 
 .project {
@@ -364,7 +365,11 @@ a {
     display: flex;
     flex-direction: column;
     max-width: 75%;
-    margin: 7rem auto 0 auto;
+    margin: auto;
+}
+
+.divider {
+    margin: 7rem auto;
 }
 
 .context {
@@ -547,4 +552,33 @@ html.transition *:after {
     .li {
         padding-left: 40px;
     }
+
+    .context {
+        flex-direction: column;
+    }
+
+    .context-item {
+        margin-bottom: 2rem;
+    }
+
+    .hero {
+        padding-top: 7rem;
+        padding-bottom: 6rem;
+    }
+
+    .project-desc {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .project-img {
+        padding: 0;
+    }
+
+}
+
+@media all and (max-width: 425px) {
+    li {
+        padding-left: 16px;
+    }
+
 }
