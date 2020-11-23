@@ -609,6 +609,7 @@ html.transition *:after {
     .about {
         flex-direction: column;
         margin-top: 2rem;
+        align-items: center;
     }
 
     .me {
