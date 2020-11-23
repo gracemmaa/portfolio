@@ -432,15 +432,22 @@ a {
 
 .about {
     display: flex;
+    display:-webkit-flex;
     flex-direction: row;
     margin-top: 5rem;
     align-items: flex-start;
+    -webkit-align-items: flex-start;
 }
 
 .me {
     display: flex;
     flex: 1.2;
     margin-top: 2rem;
+    align-items: flex-start;
+}
+
+.me .image {
+    margin-top: 0;
 }
 
 .about-body {
@@ -658,6 +665,10 @@ html.transition *:after {
         padding: 0;
     }
 
+    .me .image {
+        margin: 0 auto;
+    }
+
 }
 
 @media all and (max-width: 425px) {
@@ -673,5 +684,6 @@ html.transition *:after {
     .callout-small .iconify {
         margin-bottom: 1rem;
     }
+
 
 }
