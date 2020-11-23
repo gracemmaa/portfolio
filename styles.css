@@ -404,7 +404,6 @@ a {
 .callout-small {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     background-color: var(--bg2);
@@ -434,7 +433,7 @@ a {
 .about {
     display: flex;
     flex-direction: row;
-    margin-top: 6rem;
+    margin-top: 5rem;
     align-items: flex-start;
 }
 
@@ -451,8 +450,21 @@ a {
     margin-left: 4rem;
 }
 
+.about-body .callout-small {
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+}
+
+.callout-icon {
+    margin-right: 1rem;
+}
+
 .about-body p {
     line-height: 170%;
+}
+
+.about-body h1 {
+    margin-bottom: 1rem;
 }
 
 #resume {
@@ -558,7 +570,7 @@ html.transition *:after {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .me{
         flex: 1;
     }
