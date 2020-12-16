@@ -162,6 +162,14 @@ p {
     margin: auto;
 }
 
+#jos {
+    font-weight: 600;
+}
+
+#jos:hover {
+    opacity: 60%;
+}
+
 
 /* nav */
 nav {
@@ -613,6 +621,10 @@ html.transition *:after {
         max-width: 100%;
     }
 
+    .project-img {
+        padding: 1rem 0;
+    }
+
     .about {
         flex-direction: column;
         margin-top: 2rem;
@@ -661,9 +673,6 @@ html.transition *:after {
         padding: 1rem 2rem 1rem 2rem;
     }
 
-    .project-img {
-        padding: 0;
-    }
 
     .me .image {
         margin: 0 auto;

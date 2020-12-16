@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Grace Ma—UI</title>
+    <meta name="description" content="Grace's Portfolio">
+    <meta name="author" content="SitePoint">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+
+    <link rel="image_src" href=Images/thumbnail.png>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <script src="theme.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171185333-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-171185333-1');
+    </script>
+
+
+</head>
+
+<body class="theme-dark">
+
+<div class="container">
+
+    <nav>
+        <div class="toggle-container">
+            <span class="iconify" data-icon="bx:bx-moon" data-inline="false"></span>
+            <input type="checkbox" id="switch" name="theme" onChange="changeTheme()" /><label for="switch">Toggle</label>
+            <span class="iconify" data-icon="bx:bx-brightness" data-inline="false"></span>
+        </div>
+        <ul class="navigation">
+            <li><a href="index.html" id="inactive">work</a></li>
+            <li><a href="https://www.instagram.com/graace.png/" target="_blank" id="inactive">fun</a></li>
+            <li><a href="about.html" id="inactive">about</a></li>
+        </ul>
+    </nav>
+
+    <div class="project-header" data-aos="fade-up" data-aos-duration="1000">
+        <img src="Images/ui/ui-banner.png" id="header-img">
+    </div>
+
+    <div class="title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="-200">
+        <h1>UI Explorations</h1>
+        <p>This is a gallery and collection of UI explorations I've made in the past couple of years.
+        Some of these have been made for fun, others in hackathons, and some in side projects with organizations
+        I've partcipated in.</p>
+    </div>
+
+
+    <div class="prj-section">
+        <h3>User Profile</h3>
+        <p>A concept for a user profile in a skincare app using a horizontal scroll element in the browse view. Some additional
+        data is shown in the detailed profile view.</p>
+    </div>
+    <img src="Images/ui/profile.png" class="project-img">
+    <div class="divider"></div>
+
+
+    <div class="prj-section">
+        <h3>User Onboarding</h3>
+        <p>A medical app onboarding flow designed during the Deltahacks hackathon. Vector illustrations also
+            created by me.</p>
+    </div>
+    <img src="Images/ui/onboarding.png" class="project-img">
+    <div class="divider"></div>
+
+
+    <div class="prj-section">
+        <h3>App Landing Page and Browse</h3>
+        <p>A financial investments app I designed at a hackathon that allows for management and
+            browsing of different funds.</p>
+    </div>
+    <img src="Images/ui/browse.png" class="project-img">
+    <div class="divider"></div>
+
+
+    <div class="prj-section">
+        <h3>Mobile Web Form</h3>
+        <p>A mentor paging app designed for use during a hackathon. Created in collaboration with another designer,
+            <a href="https://joslyntsui.com/" target="_blank" id="jos">Joslyn.</a></p>
+    </div>
+    <img src="Images/ui/form.png" class="project-img">
+    <!--<div class="divider"></div>-->
+
+
+</div>
+
+
+
+
+
+<div class="container">
+
+    <footer>
+        <h2>Let's Get in Touch</h2>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/gracemmaa/" target="_blank">—LinkedIn</a>
+            <a href="https://twitter.com/gracemmaa_" target="_blank">—Twitter</a>
+            <a href="mailto:g8ma@uwaterloo.ca">—Email</a>
+        </div>
+        <div class="copyright">
+            <p>Made with lots of  🍵 by Grace Ma — Much love to Ahrar and Omar for dev help!</p>
+            <!--<p id="caption">Grace Ma 2020 ©</p>-->
+        </div>
+
+    </footer>
+
+</div>
+
+<!--<img src="Images/Flair1.svg" class="flair">-->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
