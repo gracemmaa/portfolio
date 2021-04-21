@@ -524,6 +524,13 @@ html.transition *:after {
     margin-left: .5rem
 }
 
+.top {
+    display: flex;
+    flex-directon: row;
+    margin: 2rem 0 3rem 0;
+    justify-content: flex-end;
+}
+
 
 /* About */
 
