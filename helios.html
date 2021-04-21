@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Grace Ma—Helios</title>
+    <title>Grace Ma</title>
     <meta name="description" content="Grace's Portfolio">
     <meta name="author" content="SitePoint">
     <meta name="viewport" content="width=device-width; initial-scale=1.0;">
 
-    <link rel="image_src" href=Images/thumbnail.png>
+    <!--<link rel="image_src" href=Images/thumbnail.png>-->
 
     <link rel="stylesheet" href="styles.css">
 
@@ -18,6 +18,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
+
 
     <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
     <script src="theme.js"></script>
@@ -36,131 +37,151 @@
 
 </head>
 
-<body class="theme-dark">
+<body class="theme-light">
 
-    <div class="container">
 
-        <nav>
-            <div class="toggle-container">
-                <span class="iconify" data-icon="bx:bx-moon" data-inline="false"></span>
-                <input type="checkbox" id="switch" name="theme" onChange="changeTheme()" /><label for="switch">Toggle</label>
-                <span class="iconify" data-icon="bx:bx-brightness" data-inline="false"></span>
-            </div>
-            <ul class="navigation">
-                <li><a href="index.html" id="inactive">work</a></li>
-                <li><a href="https://www.instagram.com/graace.png/" target="_blank" id="inactive">fun</a></li>
-                <li><a href="about.html" id="inactive">about</a></li>
-            </ul>
-        </nav>
+<div class="container">
 
-        <div class="project-header" data-aos="fade-up" data-aos-duration="1000">
-                <img src="Images/helios-banner.png" id="header-img">
+    <nav>
+        <div class="logo">
+            <a href="index.html">Grace.</a>
         </div>
+        <div class="toggle-container">
+            <!--<span class="iconify" data-icon="bx:bx-brightness" data-inline="false"></span>-->
+            <input type="checkbox" id="switch" name="theme" onChange="changeTheme()" /><label for="switch">Toggle</label>
+            <span class="iconify" data-icon="bx:bx-moon" data-inline="false"></span>
+        </div>
+        <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="https://www.instagram.com/graace.png/" target="_blank">Fun</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
 
-        <div class="title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-            <h1>Helios</h1>
-            <div class="context">
-                <div class="context-item">
-                    <h4>ROLE</h4>
-                    <p>Product Design Lead & Product Designer</p>
-                </div>
-                <div class="context-item">
-                    <h4>TEAM</h4>
-                    <p>Designers: Grace Ma(me), Yifei Ren, Emma Tsai</p>
-                </div>
-                <div class="context-item">
-                    <h4>DURATION</h4>
-                    <p>January 2019 - August 2019 (8 months)</p>
-                </div>
+    <div class="prj-img" data-aos="fade-up" data-aos-duration="1000">
+        <img src="images/helios2.png" class="index-img" id="helios-2">
+        <img src="images/helios1.png" class="index-img" id="helios-1">
+
+    </div>
+
+    <div class="prj-header" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="-200">
+        <h2>Helios</h2>
+        <br>
+        <br>
+        <div class="context">
+            <div class="context-item">
+                <h4>ROLE</h4>
+                <p>Product Design Lead & Product Designer</p>
+            </div>
+            <div class="context-item">
+                <h4>TEAM</h4>
+                <p>Designers: Grace Ma(me), Yifei Ren, Emma Tsai</p>
+            </div>
+            <div class="context-item">
+                <h4>DURATION</h4>
+                <p>January 2019 to August 2019 (8 months)</p>
             </div>
         </div>
+    </div>
 
-        <div class="divider"></div>
-
-        <div class="prj-section">
-            <h2>Brief</h2>
-            <div class="callout">
-                <p id="desc">Helios is a platform that builds a community to turn passion into value, impact, and productivity.</p>
-            </div>
-            <p>Helios is a platform that connects entrepreneurial students and individuals together to build side projects
+    <div class="prj-section">
+        <div class="prj-subtitle">
+            <h5>Brief</h5>
+        </div>
+        <div class="prj-content">
+            <p class="callout">Helios is a platform that builds a community to turn passion into value, impact, and productivity.</p>
+            <br>
+            <p>
+                Helios is a platform that connects entrepreneurial students and individuals together to build side projects
                 and startup businesses. Its aim is to aggregate talented and passionate people to create a network where
-                everyone shares the same drive to improve their skills and gain experience.</p>
+                everyone shares the same drive to improve their skills and gain experience.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="prj-section">
+        <div class="prj-subtitle">
+            <h5>My Contribution</h5>
+        </div>
+        <div class="prj-content">
+            <p>
+                As the product design lead, I helped to navigate the project through the design thinking process
+                and mentored the designers on the team. I also contributed as a product designer and I helped
+                to write the script for user interviews, conduct them, wireframe, and develop the design system.
+
+            </p>
+
+        </div>
+    </div>
+
+    <div class="small-divider"></div>
+
+    <div class="prj-section">
+        <div class="prj-subtitle">
+            <h5>Problem</h5>
+        </div>
+        <div class="prj-content">
+            <p class="callout">A lack of system for finding side projects means that to do so is time-consuming and
+                there is little return for invested time.</p>
             <br>
+            <p>
+                When students and individuals want to work on side projects together, there isn't a go-to method of
+                finding people to work with, or available side projects to join when they don't have an idea themselves.
+                They have to reach out to their network and friends which takes time, and not everyone may commit the
+                same amount of time to a project.
+            </p>
+            <div class="quote">
+                <h3>
+                    “There’s no uniform platform to show what opportunities there are.”
+                </h3>
+                <p>—Nick, Masters Student</p>
+            </div>
+
+            <div class="quote">
+                <h3>
+                    “I’ve gone to a lot of networking events to see if people are working on anything, but it never works”
+                </h3>
+                <p>—Galen, Student and Startup Founder</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="prj-section">
+        <div class="prj-subtitle">
+            <h5>Goal</h5>
+        </div>
+        <div class="prj-content">
+            <p class="callout">Helios is a platform that builds a community to turn passion into value, impact, and productivity.</p>
+
+        </div>
+    </div>
+
+    <div class="prj-section">
+        <div class="prj-subtitle">
+            <h5>Target Users</h5>
+        </div>
+        <div class="prj-content">
+            <img src="images/user1.png" class="prj-content-img-shadow">
+            <img src="images/user2.png" class="prj-content-img-shadow">
+
+        </div>
+    </div>
+
+    <div class="prj-section">
+        <div class="prj-subtitle">
+            <h5>Research</h5>
+        </div>
+        <div class="prj-content">
+            <p>
+                To better understand how our users currently navigate starting side projects and the associated pain
+                points, I conducted user interviews with the help of 2 designers with 4 participants, ranging from
+                students driven to learn to startup owners whose companies began as side projects.
+
+            </p>
             <br>
-            <br>
-            <h4>My Contribution</h4>
-            <p>As the product design lead, I helped to navigate the project through the design thinking
-                process and mentored the designers on the team. I also contributed as a product designer
-                and I helped to write the script for user interviews, conduct them, wireframe, and
-                develop the design system.</p>
-        </div>
-
-        <div class="divider"></div>
-
-
-        <div class="prj-section">
-            <h2>Problem</h2>
-            <div class="callout">
-                <p id="desc">A lack of system for finding side projects means that to do so is time-consuming
-                    and there is little return for invested time.</p>
-            </div>
-            <p>When students and individuals want to work on side projects together, there isn't a go-to
-                method of finding people to work with, or available side projects to join when they don't
-                have an idea themselves. They have to reach out to their network and friends which takes
-                time, and not everyone may commit the same amount of time to a project.</p>
-
-            <div class="callout-small">
-                <div class="callout-icon">
-                    <span class="iconify" data-icon="bi:chat-dots-fill" data-inline="false"></span>
-                </div>
-                <p>“There’s no uniform platform to show what opportunities there are.”
-                    - Nick, Masters Student</p>
-            </div>
-
-            <div class="callout-small">
-                <div class="callout-icon">
-                    <span class="iconify" data-icon="bi:chat-dots-fill" data-inline="false"></span>
-                </div>
-                <p>“I’ve gone to a lot of networking events to see if people are working on anything, but it never works”
-                    - Galen, Student and Startup Owner</p>
-            </div>
-
-        </div>
-
-
-        <div class="divider"></div>
-
-
-        <div class="prj-section">
-            <h2>Goal</h2>
-            <div class="callout">
-                <p id="desc">Helios is a platform that builds a community to turn passion into value, impact, and productivity.</p>
-            </div>
-        </div>
-
-
-        <div class="divider"></div>
-
-
-        <div class="prj-section">
-            <h2>Target Users</h2>
-            <h3>Entrepreneurial Students</h3>
-        </div>
-
-        <img src="Images/helios/users.png" class="image">
-
-
-        <div class="divider"></div>
-
-
-        <div class="prj-section">
-            <h2>Research</h2>
-            <p>To better understand how our users currently navigate starting side projects
-                and the associated pain points, I conducted user interviews with the help of 2
-                designers with 4 participants, ranging from students driven to learn to startup owners
-                whose companies began as side projects.</p>
-
-            <h3>Insights & Takeaways</h3>
+            <h4>Insights & Takeaways</h4>
 
             <div class="bullet">
                 <div class="dot">
@@ -190,19 +211,23 @@
                 </div>
                 <p>Social impact and opportunity to learn is important to users when they want to find a project to join</p>
             </div>
+
         </div>
 
-        <div class="divider"></div>
+    </div>
 
 
-        <div class="prj-section">
-            <h2>Designing the Product</h2>
+    <div class="prj-section">
+        <div class="prj-subtitle">
+            <h5>Designing the Product</h5>
+        </div>
+        <div class="prj-content">
+            <h4>Product Requirements</h4>
 
-            <h3>Product Requirements</h3>
-            <p>Taking into account the tasks that the users need to perform, we identified key features that we needed to build.
-            <br>
-            <br>
+            <p>
+                Taking into account the tasks that the users need to perform, we identified key features that we needed to build.
             </p>
+            <br>
 
             <div class="bullet">
                 <div class="dot">
@@ -229,269 +254,214 @@
                 <div class="dot">
                     <p>4.</p>
                 </div>
-                <p>A means of connecting these two parties.</p>
+                <p>A means of connecting these two parties</p>
             </div>
+
+
         </div>
+    </div>
 
-        <div class="divider"></div>
+    <div class="small-divider"></div>
 
 
-        <div class="prj-section">
-            <h2>Finding a Project—Browse</h2>
-            <p>The projects page of this platform contains a list of open side projects that are seeking more collaborators. </p>
-            <br>
+    <div class="prj-section">
+        <div class="prj-subtitle">
+            <h5>Finding a Project—Browse</h5>
+        </div>
+        <div class="prj-content">
+            <p>The projects page of this platform contains a list of open side projects that are seeking more collaborators.</p>
             <br>
             <h4>Decision 1</h4>
-            <div class="callout">
-                <p id="desc">A simple and focused experience that directly addresses our users' goals</p>
-            </div>
-        </div>
-
-        <img src="Images/helios.png" class="image">
-
-        <div class="prj-section">
-            <p>This page was intentionally designed to have a little interaction as possible,
-                keeping the experience of finding a project distraction-free. The main goal
-                of the page is to allow users looking for a project to join the ability to
-                browse openings. The CTA to post a button provides a quick and direct access
-                for users that have a project but are on the recruiting end.</p>
-            <br>
-            <br>
-            <br>
-
+            <p class="callout">
+                A simple and focused experience that directly addresses our users' goals
+            </p>
+            <img src="images/helios1.png" class="prj-content-img">
+            <p>
+                This page was intentionally designed to have a little interaction as possible, keeping the experience
+                of finding a project distraction-free. The main goal of the page is to allow users looking for a project
+                to join the ability to browse openings. The CTA to post a button provides a quick and direct access for
+                users that have a project but are on the recruiting end.
+            </p>
+            <br><br>
+            <br><br>
             <h4>Decision 2</h4>
-            <div class="callout">
-                <p id="desc">Card components provide an allowance to preview information to
-                    give users context before clicking to see more</p>
-            </div>
-        </div>
+            <p class="callout">
+                Card components provide an allowance to preview information to give users context before clicking to see more
+            </p>
+            <img src="images/card.png" class="prj-content-img-shadow">
+            <p>
+                In our research, users looked at various factors before considering working on a side project. In order
+                to help users make a decision about which projects they'd be interested in before needing to click for
+                additional information, I suggested using card components that would preview some information to give
+                users more context. We considered using the pattern of a more browsable list as well, but we decided
+                against it, as lists were more suited for quick browsing. For the experience of our website, we wanted
+                our users to be able to make informed decisions about these side projects.
+            </p>
 
-        <img src="Images/helios/card.png" class="image">
-
-        <div class="prj-section">
-            <p>In our research, users looked at various factors before considering working on a side
-                project. In order to help users make a decision about which projects they'd be
-                interested in before needing to click for additional information, I suggested using
-                card components that would preview some information to give users more context. We
-                considered using the pattern of a more browsable list as well, but we decided against
-                it, as lists were more suited for quick browsing. For the experience of our website,
-                we wanted our users to be able to make informed decisions about these side projects.</p>
-            <br>
-            <br>
-            <br>
-
-            <h3>Past Iterations</h3>
-        </div>
-
-        <img src="Images/helios/browse-wf.png" class="image">
-
-        <div class="prj-section">
-            <p>Some of our previous iterations were inspired by job board experiences.
-                Though it contained a lot of useful features like filters and bookmarking,
-                we went for a simpler experience because our users were likely not spending
-                much time on this platform other than for connecting with other driven individuals.
-                So on newer iterations on the right, the wireframes were further simplified and
-                we put some thought into the interactions and the surfaced data.</p>
-        </div>
-
-        <div class="divider"></div>
-
-
-        <div class="prj-section">
-            <h2>Finding a Project—Details</h2>
-            <p>Once a user clicks into a project, they're brought to a
-                detail page that lists out a description and the roles
-                that the poster is looking to fill. </p>
-            <br>
-        </div>
-        <img src="Images/helios/browse-details.png" class="image">
-
-        <div class="prj-section">
-            <br>
-            <br>
-
-            <h4>Decision 1</h4>
-            <div class="callout">
-                <p id="desc">Sticky profile and contact section to give users a direct CTA</p>
-            </div>
-        </div>
-
-        <img src="Images/helios/poster.png" class="image">
-
-        <div class="prj-section">
-            <p>This sidebar section is a sticky component, that anchors to the top of the page as a
-                user scrolls down. The main goal of the browse project flow is to make a connection
-                between the viewer and the poster so that they can work together on the project. As
-                such, I suggested to have the main function of this page available to the user at
-                all times, therefore decreasing the friction for a user to meet their goals. </p>
-            <br>
-            <br>
-            <br>
-            <h4>Decision 2</h4>
-            <div class="callout">
-                <p id="desc">Chat option</p>
-            </div>
-            <p>Keeping in mind the purpose of this product to build community around side projects,
-                we wanted to stay away from a job application kind of experience. In order to
-                accomplish this, we added a chat feature to mimic casual networking or the
-                situation of asking your friends online to participate in a fun side project. </p>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <h3>Past Iterations</h3>
-        </div>
-
-        <img src="Images/helios/details-wf.png" class="image">
-
-        <div class="prj-section">
-            <p>The previous version of this page were inspired by job boards and similar platforms,
-                with the knowledge that people are typically seeking certain skills to aid with their
-                projects. On the very right, we also tried a people-focused project details page that
-                gave the user more information about the team.</p>
-            <br>
-            <br>
-            <h4>Limitations:</h4>
-
-            <div class="bullet">
-                <div class="dot">
-                    <p>●</p>
-                </div>
-                <p>Adding team member information would be a time-consuming process; the creator of the
-                    project would have to upload name and photos. This information was not always
-                    relevant or valuable to share, so it would be wasted effort.</p>
-            </div>
-
-            <div class="bullet">
-                <div class="dot">
-                    <p>●</p>
-                </div>
-                <p>Our previous available methods of communication were through email and phone, which
-                    felt outdated for a digital platform and too formal.</p>
-            </div>
-        </div>
-
-
-        <div class="divider"></div>
-
-
-        <div class="prj-section">
-            <h2>Finding Teammates</h2>
-            <p>If a user is looking for teammates rather than a project, they can browse a
-                list of individuals who are looking to join a side project, and view their details and main skills. </p>
-        </div>
-
-        <img src="Images/helios/people.png" class="image">
-
-        <div class="prj-section">
-            <br>
-            <br>
-            <br>
-            <h4>Decision 1</h4>
-            <div class="callout">
-                <p id="desc">
-                    Prioritizing Time Commitment
-                </p>
-            </div>
-        </div>
-
-        <img src="Images/helios/time.png" class="image">
-
-        <div class="prj-section">
-            <p>Our research indicated that most of our users consider the amount of time someone can
-                commit to a project as one of the most important factors to know when looking for
-                teammates. From this insight, I made the decision to prioritize the time commitment
-                of every candidate on the card, and include it as one of the main criteria for
-                filtering through the list. The outcome of this would allow users to make faster
-                decisions on who to contact based on their requirements for a teammate.</p>
-            <br>
-            <br>
-            <br>
-            <br>
+            <br><br>
+            <br><br>
             <h4>Past Iterations</h4>
-            <p>Our first iteration of the Helios platform didn't have a people page altogether—we
-                learned after research how valuable it was for users to find the right people with
-                the right skills, and added this page after gathering these insights.</p>
+            <img src="images/wireframe1.png" class="prj-content-img-shadow">
+            <p>
+                Some of our previous iterations were inspired by job board experiences. Though it contained a lot of useful
+                features like filters and bookmarking, we went for a simpler experience because our users were likely not
+                spending much time on this platform other than for connecting with other driven individuals. So on newer
+                iterations on the right, the wireframes were further simplified and we put some thought into the interactions
+                and the surfaced data.
+            </p>
+
         </div>
-
-
-
-        <div class="divider"></div>
-
-
-        <div class="prj-section">
-            <h2>Next Steps</h2>
-            <div class="callout">
-                <p id="desc">
-                    Usability testing, implementing chat function, account creation
-                </p>
-            </div>
-            <p>Many of the decisions made for this platform have been based on the insights
-                we gathered through our user interviews in the research stage of this project.
-                However, an appropriate next step would be to test our assumptions and validate
-                the user experience choices that we have made. After that, we would need to
-                build out other crucial features for the platform like chat and account creation.</p>
-        </div>
-
-
-        <div class="divider"></div>
-
-
-        <div class="prj-section">
-            <h2>Takeaways</h2>
-            <div class="callout">
-                <p id="desc">
-                    Leadership, working with constraints, and user research
-                </p>
-            </div>
-            <p>I learned a lot through this project. It was one of my first times leading
-                other designers on a product design team, and I learned how to best communicate
-                with designers and navigate through design ideas and decisions. Working on this
-                platform also taught me a lot about user research, which I haven't done much of
-                before. I got to experience actively applying the things we learned to the choices
-                we made on user experience and interaction patterns. Additionally, we also worked
-                with developers for this project, which gave me the experience of working with real,
-                technical constraints and how to hand off design documentation so that the
-                developers can work smoothly.</p>
-        </div>
-
-
-
-
     </div>
 
+    <div class="prj-section">
+        <div class="prj-subtitle">
+            <h5>Finding a Project—Details</h5>
+        </div>
+        <div class="prj-content">
+            <p>
+                Once a user clicks into a project, they're brought to a detail page that lists out a description and
+                the roles that the poster is looking to fill.
+            </p> <br>
+            <img src="images/details.png" class="prj-content-img">
 
+            <h4>Decision 1</h4>
+            <p class="callout">
+                Sticky profile and contact section to give users a direct CTA
+            </p>
+            <img src="images/contact.png" class="prj-content-img-shadow">
+            <p>
+                This sidebar section is a sticky component, that anchors to the top of the page as a user scrolls down.
+                The main goal of the browse project flow is to make a connection between the viewer and the poster so
+                that they can work together on the project. As such, I suggested to have the main function of this page
+                available to the user at all times, therefore decreasing the friction for a user to meet their goals.
+            </p>
 
+            <br><br>
+            <br><br>
+            <h4>Decision 2</h4>
+            <p class="callout">
+                Chat option
+            </p>
+            <p>
+                Keeping in mind the purpose of this product to build community around side projects, we wanted to stay
+                away from a job application kind of experience. In order to accomplish this, we added a chat feature
+                to mimic casual networking or the situation of asking your friends online to participate in a fun
+                side project.
+            </p>
 
+            <br><br>
+            <br><br>
+            <h4>Past Iterations</h4>
+            <img src="images/wireframe2.png" class="prj-content-img-shadow">
+            <p>
+                The previous version of this page were inspired by job boards and similar platforms, with the knowledge
+                that people are typically seeking certain skills to aid with their projects. On the very right, we also
+                tried a people-focused project details page that gave the user more information about the team.
+            </p>
+            <br>
+            <h4>Limitations</h4>
 
-
-
-
-
-    <div class="container">
-
-        <footer>
-            <h2>Let's Get in Touch</h2>
-            <div class="socials">
-                <a href="https://www.linkedin.com/in/gracemmaa/" target="_blank">—LinkedIn</a>
-                <a href="https://twitter.com/gracemmaa_" target="_blank">—Twitter</a>
-                <a href="mailto:g8ma@uwaterloo.ca">—Email</a>
+            <div class="bullet">
+                <div class="dot">
+                    <p>●</p>
+                </div>
+                <p>Adding team member information would be a time-consuming process; the creator of the project would
+                    have to upload name and photos. This information was not always relevant or valuable to share,
+                    so it would be wasted effort.</p>
             </div>
-            <div class="copyright">
-                <p>Made with lots of  🍵 by Grace Ma — Much love to Ahrar and Omar for dev help!</p>
-                <!--<p id="caption">Grace Ma 2020 ©</p>-->
+
+            <div class="bullet">
+                <div class="dot">
+                    <p>●</p>
+                </div>
+                <p>Our previous available methods of communication were through email and phone, which felt outdated
+                    for a digital platform and too formal.</p>
             </div>
 
-        </footer>
-
+        </div>
     </div>
 
+    <div class="small-divider"></div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <div class="prj-section">
+        <div class="prj-subtitle">
+            <h5>Next Steps</h5>
+        </div>
+        <div class="prj-content">
+            <p class="callout">
+                Usability testing, implementing chat function, account creation
+            </p>
+            <br>
+            <p>
+                Many of the decisions made for this platform have been based on the insights we gathered through our
+                user interviews in the research stage of this project. However, an appropriate next step would be to
+                test our assumptions and validate the user experience choices that we have made. After that, we would
+                need to build out other crucial features for the platform like chat and account creation.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="prj-section">
+        <div class="prj-subtitle">
+            <h5>Takeaways</h5>
+        </div>
+        <div class="prj-content">
+            <p class="callout">
+                Leadership, working with constraints, and user research
+            </p>
+            <br>
+            <p>
+                I learned a lot through this project. It was one of my first times leading other designers on a product
+                design team, and I learned how to best communicate with designers and navigate through design ideas
+                and decisions. Working on this platform also taught me a lot about user research, which I haven't
+                done much of before. I got to experience actively applying the things we learned to the choices we
+                made on user experience and interaction patterns. Additionally, we also worked with developers for
+                this project, which gave me the experience of working with real, technical constraints and how to hand
+                off design documentation so that the developers can work smoothly.
+            </p>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<div class="container">
+
+    <footer>
+        <h2>Let's Get in Touch</h2>
+        <p>HMU for work, coffee chats, advice, or LMK about your favourite animes :)</p>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/gracemmaa/" target="_blank" class="social-link">
+                <span class="iconify" data-icon="akar-icons:arrow-right" data-inline="false"></span>LinkedIn</a>
+            <a href="https://twitter.com/gracemmaa_" target="_blank"  class="social-link">
+                <span class="iconify" data-icon="akar-icons:arrow-right" data-inline="false"></span>Twitter</a>
+            <a href="mailto:g8ma@uwaterloo.ca"  class="social-link">
+                <span class="iconify" data-icon="akar-icons:arrow-right" data-inline="false"></span>Email</a>
+        </div>
+        <div class="copyright">
+            <p>Designed and coded by Grace Ma ♥️—much love to Ahrar and Omar for JS help!</p>
+            <p id="caption">© Grace Ma 2021</p>
+        </div>
+
+    </footer>
+
+</div>
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 
 </body>
+</html>
