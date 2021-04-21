@@ -818,7 +818,7 @@ footer {
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
     /*.container {*/
     /*width: 95%;*/
     /*}*/
@@ -835,7 +835,7 @@ footer {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
     .img-tile {
         width: 120px;
     }
