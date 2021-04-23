@@ -791,8 +791,12 @@ footer {
     }
 
     .logo {
-        visibility: hidden;
+        visibility: collapse;
         width: 0px;
+    }
+
+    .toggle-container {
+        margin-left: -1rem;
     }
 
     .community-row {
