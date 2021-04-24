@@ -399,6 +399,11 @@ html.transition *:after {
     width: auto;
 }
 
+.index-img-misc {
+    max-width: 90%;
+    height: auto;
+}
+
 .project .index-img {
     transition: all 0.3s ease-out;
     /*-webkit-transition: -moz-transform .3s ease-out;*/
@@ -482,6 +487,12 @@ html.transition *:after {
 .prj-section {
     display: flex;
     flex-direction: row;
+    margin: 8rem 0;
+}
+
+.prj-section-col {
+    display: flex;
+    flex-direction: column;
     margin: 8rem 0;
 }
 
@@ -813,8 +824,8 @@ footer {
     }
 
     .index-img {
-        max-height: 60%;
-        width: auto;
+        max-width: 100%;
+        height: auto;
     }
 
     .context {
