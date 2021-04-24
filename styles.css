@@ -399,11 +399,6 @@ html.transition *:after {
     width: auto;
 }
 
-.index-img-misc {
-    max-width: 90%;
-    height: auto;
-}
-
 .project .index-img {
     transition: all 0.3s ease-out;
     /*-webkit-transition: -moz-transform .3s ease-out;*/
@@ -416,6 +411,26 @@ html.transition *:after {
 }
 
 .project:hover .index-img {
+    transform: scale(1.06);
+    /*-moz-transform: scale(1.1);*/
+    /*-webkit-transform: scale(1.05);*/
+    /*-o-transform: scale(1.05);*/
+}
+
+
+.index-img-misc {
+    max-width: 90%;
+    height: auto;
+}
+
+.project .index-img-misc {
+    transition: all 0.3s ease-out;
+    /*-webkit-transition: -moz-transform .3s ease-out;*/
+    /*-moz-transition: -webkit-transform .3s ease-out;*/
+    /*-o-transition: -o-transform .3s ease-out;*/
+}
+
+.project:hover .index-img-misc {
     transform: scale(1.06);
     /*-moz-transform: scale(1.1);*/
     /*-webkit-transform: scale(1.05);*/
